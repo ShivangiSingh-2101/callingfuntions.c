@@ -24,7 +24,7 @@ Algorithm:
 - Print the swapped values of a and b.
 - End.
 
-Progrm 2
+Program 2
 
 Aim:
 Write a C++ program to increase the salary by 5000 using a function with pass-by-reference.
