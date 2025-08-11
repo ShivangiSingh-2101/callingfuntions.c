@@ -23,3 +23,25 @@ Algorithm:
 - Return from the swap function.
 - Print the swapped values of a and b.
 - End.
+
+Progrm 2
+
+Aim:
+Write a C++ program to increase the salary by 5000 using a function with pass-by-reference.
+
+Theory:
+In C++, passing arguments to functions can be done by value or reference.
+Pass by value: The function works with a copy of the variable. Changes inside the function do not affect the original variable.
+Pass by reference: The function works with the original variable. Any changes inside the function affect the original variable.
+In this program, the salary variable is passed by reference (int &S), so when the function adds 5000 to S, the original salary variable in main() is updated directly.
+
+Algorithm:
+- Start.
+- Declare an integer variable sal and initialize it to 27000.
+- Define a function increment that takes an integer reference parameter S.
+- Inside increment function:
+- Add 5000 to S.
+- Print "Salary incremented".
+- Call the increment function from main with sal as argument.
+- Print the updated value of sal.
+- End.
