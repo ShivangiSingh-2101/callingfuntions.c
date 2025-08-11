@@ -45,3 +45,28 @@ Algorithm:
 - Call the increment function from main with sal as argument.
 - Print the updated value of sal.
 - End.
+
+Program 3
+
+Aim:
+Write a C++ program to swap the values of two variables using a function with call by reference.
+
+Theory
+Swapping is the process of exchanging the values of two variables. In C++, function arguments can be passed in two main ways:
+Call by Value: The function works on copies of the arguments, so changes inside the function do not affect the original variables.
+Call by Reference: The function works directly with the original variables, so changes inside the function affect the actual variables passed.To swap two variables inside a function so that the changes reflect outside the function, call by reference must be used. This is done by passing parameters as references (int &x), which allows the function to modify the original variables.
+
+Algorithm:
+- Start.
+- Declare two integer variables a and b.
+- Initialize a and b with values.
+- Define a function swap that takes two integer reference parameters x and y.
+- Inside the swap function:
+- Create a temporary variable temp.
+- Assign the value of x to temp.
+- Assign the value of y to x.
+- Assign the value of temp to y.
+- Call the swap function with a and b as arguments.
+- Print the swapped values of a and b.
+- End.
+
